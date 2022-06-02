@@ -1,0 +1,87 @@
+Image 1
+Real Label:horseshoe pitching
+Simple Prediction:  croquet
+Convnet Prediction:  frisbee
+Resnetv1 Prediction: lacrosse
+Resnetv2 Prediction:  frisbee
+Effnet Prediction:  frisbee
+
+Image 2
+Real Label:shuffleboard
+Simple Prediction:arm wrestling
+Convnet Prediction:     judo
+Resnetv1 Prediction:shuffleboard
+Resnetv2 Prediction:shuffleboard
+Effnet Prediction:shuffleboard
+
+Image 3
+Real Label:  bowling
+Simple Prediction:  croquet
+Convnet Prediction:  bowling
+Resnetv1 Prediction:  bowling
+Resnetv2 Prediction:  bowling
+Effnet Prediction:  bowling
+
+Image 4
+Real Label:bike polo
+Simple Prediction:basketball
+Convnet Prediction:harness racing
+Resnetv1 Prediction:bike polo
+Resnetv2 Prediction:bike polo
+Effnet Prediction:bike polo
+
+Image 5
+Real Label:horse racing
+Simple Prediction:horse racing
+Convnet Prediction:horse racing
+Resnetv1 Prediction:horse racing
+Resnetv2 Prediction:horse racing
+Effnet Prediction:horse racing
+
+Image 6
+Real Label:     luge
+Simple Prediction:   rowing
+Convnet Prediction:     luge
+Resnetv1 Prediction:     luge
+Resnetv2 Prediction:     luge
+Effnet Prediction:     luge
+
+Image 7
+Real Label:pole vault
+Simple Prediction:water polo
+Convnet Prediction:pole vault
+Resnetv1 Prediction:pole vault
+Resnetv2 Prediction:high jump
+Effnet Prediction:pole vault
+
+Image 8
+Real Label:canoe slamon
+Simple Prediction:figure skating men
+Convnet Prediction:canoe slamon
+Resnetv1 Prediction:canoe slamon
+Resnetv2 Prediction:canoe slamon
+Effnet Prediction:canoe slamon
+
+Image 9
+Real Label:     golf
+Simple Prediction:  croquet
+Convnet Prediction:bungee jumping
+Resnetv1 Prediction:     golf
+Resnetv2 Prediction:     golf
+Effnet Prediction:     golf
+
+Image 10
+Real Label:disc golf
+Simple Prediction:harness racing
+Convnet Prediction:disc golf
+Resnetv1 Prediction:disc golf
+Resnetv2 Prediction:disc golf
+Effnet Prediction:disc golf
+
+Image 11
+Real Label:basketball
+Simple Prediction:basketball
+Convnet Prediction:basketball
+Resnetv1 Prediction:basketball
+Resnetv2 Prediction:basketball
+Effnet Prediction:basketball

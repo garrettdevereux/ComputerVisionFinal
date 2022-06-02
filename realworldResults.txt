@@ -1,0 +1,138 @@
+Group Baseball:
+Simple Prediction:hammer throw
+Convnet Prediction:sailboat racing
+Resnetv1 Prediction:hammer throw
+Resnetv2 Prediction:chuckwagon racing
+Effnet Prediction:bull riding
+
+Young Red Baseball:
+Simple Prediction: football
+Convnet Prediction:wingsuit flying
+Resnetv1 Prediction:pole climbing
+Resnetv2 Prediction:horseshoe pitching
+Effnet Prediction:pole climbing
+
+Taekwondoe:
+Simple Prediction:basketball
+Convnet Prediction:pole dancing
+Resnetv1 Prediction:table tennis
+Resnetv2 Prediction:horseshoe pitching
+Effnet Prediction:baton twirling
+
+Squal football:
+Simple Prediction: lacrosse
+Convnet Prediction: lacrosse
+Resnetv1 Prediction: lacrosse
+Resnetv2 Prediction: football
+Effnet Prediction:    rugby
+
+Oak Football:
+Simple Prediction:figure skating women
+Convnet Prediction: football
+Resnetv1 Prediction: lacrosse
+Resnetv2 Prediction:weightlifting
+Effnet Prediction: football
+
+MP at bat:
+Simple Prediction:harness racing
+Convnet Prediction: baseball
+Resnetv1 Prediction: baseball
+Resnetv2 Prediction: baseball
+Effnet Prediction: baseball
+
+DB stance
+Simple Prediction:bungee jumping
+Convnet Prediction:ampute football
+Resnetv1 Prediction: ultimate
+Resnetv2 Prediction: football
+Effnet Prediction: football
+
+Line of scrim:
+Simple Prediction:olympic wrestling
+Convnet Prediction: football
+Resnetv1 Prediction: football
+Resnetv2 Prediction: football
+Effnet Prediction: football
+
+Tackle
+Simple Prediction:  croquet
+Convnet Prediction: ultimate
+Resnetv1 Prediction:     polo
+Resnetv2 Prediction: football
+Effnet Prediction: football
+
+Catch Football:
+Simple Prediction:  fencing
+Convnet Prediction: football
+Resnetv1 Prediction: football
+Resnetv2 Prediction: football
+Effnet Prediction:   tennis
+
+Simple Prediction:pole dancing
+Convnet Prediction:  hurdles
+Resnetv1 Prediction:nascar racing
+Resnetv2 Prediction:   hockey
+Effnet Prediction:   hockey
+
+Solo At bat:
+Simple Prediction:horse jumping
+Convnet Prediction: baseball
+Resnetv1 Prediction: baseball
+Resnetv2 Prediction: baseball
+Effnet Prediction: baseball
+
+Solo Catch
+Simple Prediction:harness racing
+Convnet Prediction:barell racing
+Resnetv1 Prediction:rollerblade racing
+Resnetv2 Prediction: baseball
+Effnet Prediction:      bmx
+
+Surfing:
+Simple Prediction:  surfing
+Convnet Prediction:   rowing
+Resnetv1 Prediction:   rowing
+Resnetv2 Prediction:   rowing
+Effnet Prediction:hydroplane racing
+
+Birthday Basketball:
+Simple Prediction:      bmx
+Convnet Prediction: jousting
+Resnetv1 Prediction:cheerleading
+Resnetv2 Prediction:disc golf
+Effnet Prediction:  archery
+
+Golf:
+Simple Prediction:hydroplane racing
+Convnet Prediction:chuckwagon racing
+Resnetv1 Prediction:tug of war
+Resnetv2 Prediction:tug of war
+Effnet Prediction:  archery
+
+Handstand:
+Simple Prediction:  surfing
+Convnet Prediction:   rowing
+Resnetv1 Prediction:  surfing
+Resnetv2 Prediction:  surfing
+Effnet Prediction:sailboat racing
+
+Kayak:
+Simple Prediction: football
+Convnet Prediction:horseshoe pitching
+Resnetv1 Prediction:barell racing
+Resnetv2 Prediction:shuffleboard
+Effnet Prediction:air hockey
+
+Front Paddle:
+Simple Prediction:  surfing
+Convnet Prediction:sailboat racing
+Resnetv1 Prediction:  surfing
+Resnetv2 Prediction:canoe slamon
+Effnet Prediction:sailboat racing
+
+Family Paddle:
+Simple Prediction:sailboat racing
+Convnet Prediction:   rowing
+Resnetv1 Prediction:sailboat racing
+Resnetv2 Prediction:sailboat racing
+Effnet Prediction:tug of war
