@@ -1,0 +1,501 @@
+path, pred class, actual
+test/1.jpg,air hockey,air hockey
+test/2.jpg,air hockey,air hockey
+test/3.jpg,air hockey,air hockey
+test/4.jpg,air hockey,air hockey
+test/5.jpg,air hockey,air hockey
+test/1.jpg,ampute football,ampute football
+test/2.jpg,ampute football,ampute football
+test/3.jpg,ampute football,ampute football
+test/4.jpg,ampute football,ampute football
+test/5.jpg,ampute football,ampute football
+test/1.jpg,archery,archery
+test/2.jpg,archery,archery
+test/3.jpg,archery,archery
+test/4.jpg,archery,archery
+test/5.jpg,archery,archery
+test/1.jpg,arm wrestling,arm wrestling
+test/2.jpg,arm wrestling,arm wrestling
+test/3.jpg,arm wrestling,arm wrestling
+test/4.jpg,arm wrestling,arm wrestling
+test/5.jpg,arm wrestling,arm wrestling
+test/1.jpg,archery,axe throwing
+test/2.jpg,axe throwing,axe throwing
+test/3.jpg,axe throwing,axe throwing
+test/4.jpg,axe throwing,axe throwing
+test/5.jpg,axe throwing,axe throwing
+test/1.jpg,balance beam,balance beam
+test/2.jpg,balance beam,balance beam
+test/3.jpg,balance beam,balance beam
+test/4.jpg,balance beam,balance beam
+test/5.jpg,balance beam,balance beam
+test/1.jpg,barell racing,barell racing
+test/2.jpg,barell racing,barell racing
+test/3.jpg,barell racing,barell racing
+test/4.jpg,barell racing,barell racing
+test/5.jpg,barell racing,barell racing
+test/1.jpg,cricket,baseball
+test/2.jpg,football,baseball
+test/3.jpg,football,baseball
+test/4.jpg,baseball,baseball
+test/5.jpg,baseball,baseball
+test/1.jpg,basketball,basketball
+test/2.jpg,basketball,basketball
+test/3.jpg,basketball,basketball
+test/4.jpg,basketball,basketball
+test/5.jpg,basketball,basketball
+test/1.jpg,baton twirling,baton twirling
+test/2.jpg,baton twirling,baton twirling
+test/3.jpg,baton twirling,baton twirling
+test/4.jpg,baton twirling,baton twirling
+test/5.jpg,javelin,baton twirling
+test/1.jpg,bike polo,bike polo
+test/2.jpg,bike polo,bike polo
+test/3.jpg,bike polo,bike polo
+test/4.jpg,bike polo,bike polo
+test/5.jpg,bike polo,bike polo
+test/1.jpg,billiards,billiards
+test/2.jpg,billiards,billiards
+test/3.jpg,billiards,billiards
+test/4.jpg,billiards,billiards
+test/5.jpg,billiards,billiards
+test/1.jpg,bmx,bmx
+test/2.jpg,bmx,bmx
+test/3.jpg,bmx,bmx
+test/4.jpg,motorcycle racing,bmx
+test/5.jpg,wheelchair racing,bmx
+test/1.jpg,bobsled,bobsled
+test/2.jpg,bobsled,bobsled
+test/3.jpg,bobsled,bobsled
+test/4.jpg,snowmobile racing,bobsled
+test/5.jpg,bobsled,bobsled
+test/1.jpg,bowling,bowling
+test/2.jpg,bowling,bowling
+test/3.jpg,shuffleboard,bowling
+test/4.jpg,bowling,bowling
+test/5.jpg,bowling,bowling
+test/1.jpg,boxing,boxing
+test/2.jpg,boxing,boxing
+test/3.jpg,boxing,boxing
+test/4.jpg,boxing,boxing
+test/5.jpg,boxing,boxing
+test/1.jpg,bull riding,bull riding
+test/2.jpg,bull riding,bull riding
+test/3.jpg,bull riding,bull riding
+test/4.jpg,bull riding,bull riding
+test/5.jpg,bull riding,bull riding
+test/1.jpg,bungee jumping,bungee jumping
+test/2.jpg,bungee jumping,bungee jumping
+test/3.jpg,bungee jumping,bungee jumping
+test/4.jpg,trapeze,bungee jumping
+test/5.jpg,bungee jumping,bungee jumping
+test/1.jpg,canoe slamon,canoe slamon
+test/2.jpg,canoe slamon,canoe slamon
+test/3.jpg,canoe slamon,canoe slamon
+test/4.jpg,canoe slamon,canoe slamon
+test/5.jpg,canoe slamon,canoe slamon
+test/1.jpg,cheerleading,cheerleading
+test/2.jpg,cheerleading,cheerleading
+test/3.jpg,cheerleading,cheerleading
+test/4.jpg,cheerleading,cheerleading
+test/5.jpg,cheerleading,cheerleading
+test/1.jpg,chuckwagon racing,chuckwagon racing
+test/2.jpg,chuckwagon racing,chuckwagon racing
+test/3.jpg,chuckwagon racing,chuckwagon racing
+test/4.jpg,chuckwagon racing,chuckwagon racing
+test/5.jpg,chuckwagon racing,chuckwagon racing
+test/1.jpg,cricket,cricket
+test/2.jpg,cricket,cricket
+test/3.jpg,cricket,cricket
+test/4.jpg,cricket,cricket
+test/5.jpg,cricket,cricket
+test/1.jpg,croquet,croquet
+test/2.jpg,croquet,croquet
+test/3.jpg,croquet,croquet
+test/4.jpg,croquet,croquet
+test/5.jpg,croquet,croquet
+test/1.jpg,curling,curling
+test/2.jpg,curling,curling
+test/3.jpg,curling,curling
+test/4.jpg,curling,curling
+test/5.jpg,curling,curling
+test/1.jpg,disc golf,disc golf
+test/2.jpg,disc golf,disc golf
+test/3.jpg,disc golf,disc golf
+test/4.jpg,disc golf,disc golf
+test/5.jpg,disc golf,disc golf
+test/1.jpg,fencing,fencing
+test/2.jpg,fencing,fencing
+test/3.jpg,fencing,fencing
+test/4.jpg,fencing,fencing
+test/5.jpg,fencing,fencing
+test/1.jpg,field hockey,field hockey
+test/2.jpg,field hockey,field hockey
+test/3.jpg,field hockey,field hockey
+test/4.jpg,field hockey,field hockey
+test/5.jpg,field hockey,field hockey
+test/1.jpg,figure skating men,figure skating men
+test/2.jpg,figure skating men,figure skating men
+test/3.jpg,figure skating pairs,figure skating men
+test/4.jpg,figure skating men,figure skating men
+test/5.jpg,figure skating men,figure skating men
+test/1.jpg,figure skating pairs,figure skating pairs
+test/2.jpg,figure skating pairs,figure skating pairs
+test/3.jpg,figure skating pairs,figure skating pairs
+test/4.jpg,figure skating pairs,figure skating pairs
+test/5.jpg,figure skating pairs,figure skating pairs
+test/1.jpg,figure skating women,figure skating women
+test/2.jpg,figure skating women,figure skating women
+test/3.jpg,figure skating women,figure skating women
+test/4.jpg,figure skating women,figure skating women
+test/5.jpg,figure skating women,figure skating women
+test/1.jpg,fly fishing,fly fishing
+test/2.jpg,fly fishing,fly fishing
+test/3.jpg,fly fishing,fly fishing
+test/4.jpg,fly fishing,fly fishing
+test/5.jpg,fly fishing,fly fishing
+test/1.jpg,football,football
+test/2.jpg,football,football
+test/3.jpg,football,football
+test/4.jpg,football,football
+test/5.jpg,football,football
+test/1.jpg,formula 1 racing,formula 1 racing
+test/2.jpg,formula 1 racing,formula 1 racing
+test/3.jpg,formula 1 racing,formula 1 racing
+test/4.jpg,formula 1 racing,formula 1 racing
+test/5.jpg,formula 1 racing,formula 1 racing
+test/1.jpg,frisbee,frisbee
+test/2.jpg,frisbee,frisbee
+test/3.jpg,frisbee,frisbee
+test/4.jpg,frisbee,frisbee
+test/5.jpg,frisbee,frisbee
+test/1.jpg,gaga,gaga
+test/2.jpg,gaga,gaga
+test/3.jpg,gaga,gaga
+test/4.jpg,gaga,gaga
+test/5.jpg,gaga,gaga
+test/1.jpg,giant slalom,giant slalom
+test/2.jpg,giant slalom,giant slalom
+test/3.jpg,giant slalom,giant slalom
+test/4.jpg,giant slalom,giant slalom
+test/5.jpg,giant slalom,giant slalom
+test/1.jpg,golf,golf
+test/2.jpg,golf,golf
+test/3.jpg,golf,golf
+test/4.jpg,golf,golf
+test/5.jpg,golf,golf
+test/1.jpg,hammer throw,hammer throw
+test/2.jpg,hammer throw,hammer throw
+test/3.jpg,hammer throw,hammer throw
+test/4.jpg,hammer throw,hammer throw
+test/5.jpg,hammer throw,hammer throw
+test/1.jpg,hang gliding,hang gliding
+test/2.jpg,hang gliding,hang gliding
+test/3.jpg,hang gliding,hang gliding
+test/4.jpg,hang gliding,hang gliding
+test/5.jpg,hang gliding,hang gliding
+test/1.jpg,harness racing,harness racing
+test/2.jpg,harness racing,harness racing
+test/3.jpg,harness racing,harness racing
+test/4.jpg,harness racing,harness racing
+test/5.jpg,harness racing,harness racing
+test/1.jpg,high jump,high jump
+test/2.jpg,high jump,high jump
+test/3.jpg,high jump,high jump
+test/4.jpg,high jump,high jump
+test/5.jpg,high jump,high jump
+test/1.jpg,hockey,hockey
+test/2.jpg,hockey,hockey
+test/3.jpg,hockey,hockey
+test/4.jpg,hockey,hockey
+test/5.jpg,hockey,hockey
+test/1.jpg,horse jumping,horse jumping
+test/2.jpg,horse jumping,horse jumping
+test/3.jpg,horse jumping,horse jumping
+test/4.jpg,horse jumping,horse jumping
+test/5.jpg,horse jumping,horse jumping
+test/1.jpg,horse racing,horse racing
+test/2.jpg,horse racing,horse racing
+test/3.jpg,horse racing,horse racing
+test/4.jpg,horse racing,horse racing
+test/5.jpg,horse racing,horse racing
+test/1.jpg,golf,horseshoe pitching
+test/2.jpg,horseshoe pitching,horseshoe pitching
+test/3.jpg,horseshoe pitching,horseshoe pitching
+test/4.jpg,horseshoe pitching,horseshoe pitching
+test/5.jpg,horseshoe pitching,horseshoe pitching
+test/1.jpg,hurdles,hurdles
+test/2.jpg,hurdles,hurdles
+test/3.jpg,hurdles,hurdles
+test/4.jpg,hurdles,hurdles
+test/5.jpg,hurdles,hurdles
+test/1.jpg,hydroplane racing,hydroplane racing
+test/2.jpg,sailboat racing,hydroplane racing
+test/3.jpg,hydroplane racing,hydroplane racing
+test/4.jpg,hydroplane racing,hydroplane racing
+test/5.jpg,hydroplane racing,hydroplane racing
+test/1.jpg,ice climbing,ice climbing
+test/2.jpg,ice climbing,ice climbing
+test/3.jpg,ice climbing,ice climbing
+test/4.jpg,ice climbing,ice climbing
+test/5.jpg,ice climbing,ice climbing
+test/1.jpg,ice yachting,ice yachting
+test/2.jpg,ice yachting,ice yachting
+test/3.jpg,ice yachting,ice yachting
+test/4.jpg,ice yachting,ice yachting
+test/5.jpg,ice yachting,ice yachting
+test/1.jpg,jai alai,jai alai
+test/2.jpg,jai alai,jai alai
+test/3.jpg,jai alai,jai alai
+test/4.jpg,jai alai,jai alai
+test/5.jpg,jai alai,jai alai
+test/1.jpg,javelin,javelin
+test/2.jpg,javelin,javelin
+test/3.jpg,javelin,javelin
+test/4.jpg,javelin,javelin
+test/5.jpg,javelin,javelin
+test/1.jpg,jousting,jousting
+test/2.jpg,jousting,jousting
+test/3.jpg,jousting,jousting
+test/4.jpg,jousting,jousting
+test/5.jpg,jousting,jousting
+test/1.jpg,judo,judo
+test/2.jpg,judo,judo
+test/3.jpg,judo,judo
+test/4.jpg,judo,judo
+test/5.jpg,judo,judo
+test/1.jpg,lacrosse,lacrosse
+test/2.jpg,football,lacrosse
+test/3.jpg,lacrosse,lacrosse
+test/4.jpg,lacrosse,lacrosse
+test/5.jpg,lacrosse,lacrosse
+test/1.jpg,log rolling,log rolling
+test/2.jpg,log rolling,log rolling
+test/3.jpg,log rolling,log rolling
+test/4.jpg,log rolling,log rolling
+test/5.jpg,log rolling,log rolling
+test/1.jpg,luge,luge
+test/2.jpg,luge,luge
+test/3.jpg,luge,luge
+test/4.jpg,luge,luge
+test/5.jpg,luge,luge
+test/1.jpg,motorcycle racing,motorcycle racing
+test/2.jpg,motorcycle racing,motorcycle racing
+test/3.jpg,motorcycle racing,motorcycle racing
+test/4.jpg,motorcycle racing,motorcycle racing
+test/5.jpg,motorcycle racing,motorcycle racing
+test/1.jpg,mushing,mushing
+test/2.jpg,mushing,mushing
+test/3.jpg,mushing,mushing
+test/4.jpg,mushing,mushing
+test/5.jpg,mushing,mushing
+test/1.jpg,nascar racing,nascar racing
+test/2.jpg,nascar racing,nascar racing
+test/3.jpg,nascar racing,nascar racing
+test/4.jpg,nascar racing,nascar racing
+test/5.jpg,nascar racing,nascar racing
+test/1.jpg,olympic wrestling,olympic wrestling
+test/2.jpg,olympic wrestling,olympic wrestling
+test/3.jpg,olympic wrestling,olympic wrestling
+test/4.jpg,olympic wrestling,olympic wrestling
+test/5.jpg,olympic wrestling,olympic wrestling
+test/1.jpg,parallel bar,parallel bar
+test/2.jpg,parallel bar,parallel bar
+test/3.jpg,parallel bar,parallel bar
+test/4.jpg,parallel bar,parallel bar
+test/5.jpg,parallel bar,parallel bar
+test/1.jpg,axe throwing,pole climbing
+test/2.jpg,pole climbing,pole climbing
+test/3.jpg,pole climbing,pole climbing
+test/4.jpg,pole climbing,pole climbing
+test/5.jpg,pole climbing,pole climbing
+test/1.jpg,pole dancing,pole dancing
+test/2.jpg,pole dancing,pole dancing
+test/3.jpg,pole dancing,pole dancing
+test/4.jpg,pole dancing,pole dancing
+test/5.jpg,pole dancing,pole dancing
+test/1.jpg,pole vault,pole vault
+test/2.jpg,pole vault,pole vault
+test/3.jpg,pole vault,pole vault
+test/4.jpg,pole vault,pole vault
+test/5.jpg,pole vault,pole vault
+test/1.jpg,polo,polo
+test/2.jpg,polo,polo
+test/3.jpg,polo,polo
+test/4.jpg,polo,polo
+test/5.jpg,polo,polo
+test/1.jpg,pommel horse,pommel horse
+test/2.jpg,pommel horse,pommel horse
+test/3.jpg,pommel horse,pommel horse
+test/4.jpg,pommel horse,pommel horse
+test/5.jpg,pommel horse,pommel horse
+test/1.jpg,rings,rings
+test/2.jpg,rings,rings
+test/3.jpg,rings,rings
+test/4.jpg,rings,rings
+test/5.jpg,rings,rings
+test/1.jpg,rock climbing,rock climbing
+test/2.jpg,rock climbing,rock climbing
+test/3.jpg,rock climbing,rock climbing
+test/4.jpg,rock climbing,rock climbing
+test/5.jpg,rock climbing,rock climbing
+test/1.jpg,roller derby,roller derby
+test/2.jpg,roller derby,roller derby
+test/3.jpg,speed skating,roller derby
+test/4.jpg,roller derby,roller derby
+test/5.jpg,roller derby,roller derby
+test/1.jpg,rollerblade racing,rollerblade racing
+test/2.jpg,rollerblade racing,rollerblade racing
+test/3.jpg,rollerblade racing,rollerblade racing
+test/4.jpg,rollerblade racing,rollerblade racing
+test/5.jpg,rollerblade racing,rollerblade racing
+test/1.jpg,rowing,rowing
+test/2.jpg,rowing,rowing
+test/3.jpg,rowing,rowing
+test/4.jpg,rowing,rowing
+test/5.jpg,rowing,rowing
+test/1.jpg,rugby,rugby
+test/2.jpg,rugby,rugby
+test/3.jpg,rugby,rugby
+test/4.jpg,rugby,rugby
+test/5.jpg,rugby,rugby
+test/1.jpg,sailboat racing,sailboat racing
+test/2.jpg,sailboat racing,sailboat racing
+test/3.jpg,sailboat racing,sailboat racing
+test/4.jpg,sailboat racing,sailboat racing
+test/5.jpg,sailboat racing,sailboat racing
+test/1.jpg,shot put,shot put
+test/2.jpg,javelin,shot put
+test/3.jpg,shot put,shot put
+test/4.jpg,shot put,shot put
+test/5.jpg,shot put,shot put
+test/1.jpg,shuffleboard,shuffleboard
+test/2.jpg,shuffleboard,shuffleboard
+test/3.jpg,shuffleboard,shuffleboard
+test/4.jpg,shuffleboard,shuffleboard
+test/5.jpg,shuffleboard,shuffleboard
+test/1.jpg,sidecar racing,sidecar racing
+test/2.jpg,sidecar racing,sidecar racing
+test/3.jpg,motorcycle racing,sidecar racing
+test/4.jpg,sidecar racing,sidecar racing
+test/5.jpg,sidecar racing,sidecar racing
+test/1.jpg,ski jumping,ski jumping
+test/2.jpg,ski jumping,ski jumping
+test/3.jpg,ski jumping,ski jumping
+test/4.jpg,ski jumping,ski jumping
+test/5.jpg,ski jumping,ski jumping
+test/1.jpg,sky surfing,sky surfing
+test/2.jpg,sky surfing,sky surfing
+test/3.jpg,sky surfing,sky surfing
+test/4.jpg,sky surfing,sky surfing
+test/5.jpg,sky surfing,sky surfing
+test/1.jpg,skydiving,skydiving
+test/2.jpg,skydiving,skydiving
+test/3.jpg,skydiving,skydiving
+test/4.jpg,skydiving,skydiving
+test/5.jpg,skydiving,skydiving
+test/1.jpg,giant slalom,snow boarding
+test/2.jpg,snow boarding,snow boarding
+test/3.jpg,snow boarding,snow boarding
+test/4.jpg,giant slalom,snow boarding
+test/5.jpg,snow boarding,snow boarding
+test/1.jpg,snowmobile racing,snowmobile racing
+test/2.jpg,snowmobile racing,snowmobile racing
+test/3.jpg,snowmobile racing,snowmobile racing
+test/4.jpg,snowmobile racing,snowmobile racing
+test/5.jpg,snowmobile racing,snowmobile racing
+test/1.jpg,speed skating,speed skating
+test/2.jpg,speed skating,speed skating
+test/3.jpg,speed skating,speed skating
+test/4.jpg,speed skating,speed skating
+test/5.jpg,speed skating,speed skating
+test/1.jpg,steer wrestling,steer wrestling
+test/2.jpg,steer wrestling,steer wrestling
+test/3.jpg,steer wrestling,steer wrestling
+test/4.jpg,bull riding,steer wrestling
+test/5.jpg,steer wrestling,steer wrestling
+test/1.jpg,sumo wrestling,sumo wrestling
+test/2.jpg,arm wrestling,sumo wrestling
+test/3.jpg,sumo wrestling,sumo wrestling
+test/4.jpg,sumo wrestling,sumo wrestling
+test/5.jpg,sumo wrestling,sumo wrestling
+test/1.jpg,surfing,surfing
+test/2.jpg,surfing,surfing
+test/3.jpg,surfing,surfing
+test/4.jpg,surfing,surfing
+test/5.jpg,surfing,surfing
+test/1.jpg,swimming,swimming
+test/2.jpg,swimming,swimming
+test/3.jpg,swimming,swimming
+test/4.jpg,swimming,swimming
+test/5.jpg,swimming,swimming
+test/1.jpg,table tennis,table tennis
+test/2.jpg,table tennis,table tennis
+test/3.jpg,table tennis,table tennis
+test/4.jpg,table tennis,table tennis
+test/5.jpg,table tennis,table tennis
+test/1.jpg,tennis,tennis
+test/2.jpg,tennis,tennis
+test/3.jpg,tennis,tennis
+test/4.jpg,tennis,tennis
+test/5.jpg,hurdles,tennis
+test/1.jpg,track bicycle,track bicycle
+test/2.jpg,track bicycle,track bicycle
+test/3.jpg,track bicycle,track bicycle
+test/4.jpg,track bicycle,track bicycle
+test/5.jpg,track bicycle,track bicycle
+test/1.jpg,trapeze,trapeze
+test/2.jpg,pole dancing,trapeze
+test/3.jpg,trapeze,trapeze
+test/4.jpg,trapeze,trapeze
+test/5.jpg,trapeze,trapeze
+test/1.jpg,tug of war,tug of war
+test/2.jpg,tug of war,tug of war
+test/3.jpg,tug of war,tug of war
+test/4.jpg,tug of war,tug of war
+test/5.jpg,tug of war,tug of war
+test/1.jpg,ultimate,ultimate
+test/2.jpg,ultimate,ultimate
+test/3.jpg,tug of war,ultimate
+test/4.jpg,ultimate,ultimate
+test/5.jpg,lacrosse,ultimate
+test/1.jpg,uneven bars,uneven bars
+test/2.jpg,uneven bars,uneven bars
+test/3.jpg,uneven bars,uneven bars
+test/4.jpg,uneven bars,uneven bars
+test/5.jpg,uneven bars,uneven bars
+test/1.jpg,volleyball,volleyball
+test/2.jpg,volleyball,volleyball
+test/3.jpg,volleyball,volleyball
+test/4.jpg,volleyball,volleyball
+test/5.jpg,volleyball,volleyball
+test/1.jpg,water cycling,water cycling
+test/2.jpg,water cycling,water cycling
+test/3.jpg,water cycling,water cycling
+test/4.jpg,water cycling,water cycling
+test/5.jpg,water cycling,water cycling
+test/1.jpg,water polo,water polo
+test/2.jpg,water polo,water polo
+test/3.jpg,water polo,water polo
+test/4.jpg,water polo,water polo
+test/5.jpg,water polo,water polo
+test/1.jpg,weightlifting,weightlifting
+test/2.jpg,weightlifting,weightlifting
+test/3.jpg,weightlifting,weightlifting
+test/4.jpg,weightlifting,weightlifting
+test/5.jpg,weightlifting,weightlifting
+test/1.jpg,wheelchair basketball,wheelchair basketball
+test/2.jpg,wheelchair basketball,wheelchair basketball
+test/3.jpg,wheelchair basketball,wheelchair basketball
+test/4.jpg,wheelchair basketball,wheelchair basketball
+test/5.jpg,wheelchair basketball,wheelchair basketball
+test/1.jpg,harness racing,wheelchair racing
+test/2.jpg,wheelchair racing,wheelchair racing
+test/3.jpg,wheelchair racing,wheelchair racing
+test/4.jpg,wheelchair racing,wheelchair racing
+test/5.jpg,wheelchair racing,wheelchair racing
+test/1.jpg,wingsuit flying,wingsuit flying
+test/2.jpg,wingsuit flying,wingsuit flying
+test/3.jpg,wingsuit flying,wingsuit flying
+test/4.jpg,wingsuit flying,wingsuit flying
+test/5.jpg,wingsuit flying,wingsuit flying

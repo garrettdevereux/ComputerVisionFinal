@@ -1,0 +1,501 @@
+path, pred class, actual
+test/1.jpg,shot put,air hockey
+test/2.jpg,air hockey,air hockey
+test/3.jpg,rings,air hockey
+test/4.jpg,air hockey,air hockey
+test/5.jpg,hurdles,air hockey
+test/1.jpg,horse jumping,ampute football
+test/2.jpg,frisbee,ampute football
+test/3.jpg,croquet,ampute football
+test/4.jpg,football,ampute football
+test/5.jpg,ampute football,ampute football
+test/1.jpg,disc golf,archery
+test/2.jpg,ice yachting,archery
+test/3.jpg,giant slalom,archery
+test/4.jpg,rollerblade racing,archery
+test/5.jpg,hydroplane racing,archery
+test/1.jpg,roller derby,arm wrestling
+test/2.jpg,sumo wrestling,arm wrestling
+test/3.jpg,bungee jumping,arm wrestling
+test/4.jpg,jai alai,arm wrestling
+test/5.jpg,golf,arm wrestling
+test/1.jpg,hammer throw,axe throwing
+test/2.jpg,nascar racing,axe throwing
+test/3.jpg,axe throwing,axe throwing
+test/4.jpg,sidecar racing,axe throwing
+test/5.jpg,horse racing,axe throwing
+test/1.jpg,sumo wrestling,balance beam
+test/2.jpg,balance beam,balance beam
+test/3.jpg,air hockey,balance beam
+test/4.jpg,balance beam,balance beam
+test/5.jpg,rings,balance beam
+test/1.jpg,ampute football,barell racing
+test/2.jpg,basketball,barell racing
+test/3.jpg,basketball,barell racing
+test/4.jpg,horse racing,barell racing
+test/5.jpg,barell racing,barell racing
+test/1.jpg,judo,baseball
+test/2.jpg,baseball,baseball
+test/3.jpg,football,baseball
+test/4.jpg,horseshoe pitching,baseball
+test/5.jpg,sumo wrestling,baseball
+test/1.jpg,jai alai,basketball
+test/2.jpg,basketball,basketball
+test/3.jpg,shuffleboard,basketball
+test/4.jpg,basketball,basketball
+test/5.jpg,basketball,basketball
+test/1.jpg,football,baton twirling
+test/2.jpg,axe throwing,baton twirling
+test/3.jpg,sailboat racing,baton twirling
+test/4.jpg,jai alai,baton twirling
+test/5.jpg,baseball,baton twirling
+test/1.jpg,hurdles,bike polo
+test/2.jpg,roller derby,bike polo
+test/3.jpg,rock climbing,bike polo
+test/4.jpg,sidecar racing,bike polo
+test/5.jpg,nascar racing,bike polo
+test/1.jpg,billiards,billiards
+test/2.jpg,polo,billiards
+test/3.jpg,ultimate,billiards
+test/4.jpg,billiards,billiards
+test/5.jpg,billiards,billiards
+test/1.jpg,horse racing,bmx
+test/2.jpg,water cycling,bmx
+test/3.jpg,horse jumping,bmx
+test/4.jpg,skydiving,bmx
+test/5.jpg,rowing,bmx
+test/1.jpg,hammer throw,bobsled
+test/2.jpg,formula 1 racing,bobsled
+test/3.jpg,snowmobile racing,bobsled
+test/4.jpg,figure skating pairs,bobsled
+test/5.jpg,snowmobile racing,bobsled
+test/1.jpg,baseball,bowling
+test/2.jpg,shuffleboard,bowling
+test/3.jpg,basketball,bowling
+test/4.jpg,baseball,bowling
+test/5.jpg,football,bowling
+test/1.jpg,boxing,boxing
+test/2.jpg,boxing,boxing
+test/3.jpg,boxing,boxing
+test/4.jpg,pole dancing,boxing
+test/5.jpg,boxing,boxing
+test/1.jpg,baseball,bull riding
+test/2.jpg,basketball,bull riding
+test/3.jpg,baseball,bull riding
+test/4.jpg,track bicycle,bull riding
+test/5.jpg,lacrosse,bull riding
+test/1.jpg,croquet,bungee jumping
+test/2.jpg,ice climbing,bungee jumping
+test/3.jpg,field hockey,bungee jumping
+test/4.jpg,mushing,bungee jumping
+test/5.jpg,cricket,bungee jumping
+test/1.jpg,swimming,canoe slamon
+test/2.jpg,rowing,canoe slamon
+test/3.jpg,bmx,canoe slamon
+test/4.jpg,skydiving,canoe slamon
+test/5.jpg,giant slalom,canoe slamon
+test/1.jpg,mushing,cheerleading
+test/2.jpg,frisbee,cheerleading
+test/3.jpg,weightlifting,cheerleading
+test/4.jpg,chuckwagon racing,cheerleading
+test/5.jpg,sumo wrestling,cheerleading
+test/1.jpg,canoe slamon,chuckwagon racing
+test/2.jpg,football,chuckwagon racing
+test/3.jpg,horse racing,chuckwagon racing
+test/4.jpg,track bicycle,chuckwagon racing
+test/5.jpg,track bicycle,chuckwagon racing
+test/1.jpg,croquet,cricket
+test/2.jpg,lacrosse,cricket
+test/3.jpg,cricket,cricket
+test/4.jpg,baseball,cricket
+test/5.jpg,cricket,cricket
+test/1.jpg,croquet,croquet
+test/2.jpg,croquet,croquet
+test/3.jpg,croquet,croquet
+test/4.jpg,croquet,croquet
+test/5.jpg,croquet,croquet
+test/1.jpg,mushing,curling
+test/2.jpg,formula 1 racing,curling
+test/3.jpg,curling,curling
+test/4.jpg,figure skating women,curling
+test/5.jpg,olympic wrestling,curling
+test/1.jpg,croquet,disc golf
+test/2.jpg,croquet,disc golf
+test/3.jpg,croquet,disc golf
+test/4.jpg,golf,disc golf
+test/5.jpg,cricket,disc golf
+test/1.jpg,fencing,fencing
+test/2.jpg,boxing,fencing
+test/3.jpg,hockey,fencing
+test/4.jpg,high jump,fencing
+test/5.jpg,canoe slamon,fencing
+test/1.jpg,field hockey,field hockey
+test/2.jpg,lacrosse,field hockey
+test/3.jpg,billiards,field hockey
+test/4.jpg,field hockey,field hockey
+test/5.jpg,lacrosse,field hockey
+test/1.jpg,figure skating men,figure skating men
+test/2.jpg,figure skating men,figure skating men
+test/3.jpg,figure skating women,figure skating men
+test/4.jpg,figure skating men,figure skating men
+test/5.jpg,figure skating men,figure skating men
+test/1.jpg,figure skating women,figure skating pairs
+test/2.jpg,mushing,figure skating pairs
+test/3.jpg,trapeze,figure skating pairs
+test/4.jpg,figure skating pairs,figure skating pairs
+test/5.jpg,figure skating men,figure skating pairs
+test/1.jpg,hockey,figure skating women
+test/2.jpg,hockey,figure skating women
+test/3.jpg,figure skating women,figure skating women
+test/4.jpg,giant slalom,figure skating women
+test/5.jpg,speed skating,figure skating women
+test/1.jpg,pole vault,fly fishing
+test/2.jpg,jai alai,fly fishing
+test/3.jpg,pole climbing,fly fishing
+test/4.jpg,fly fishing,fly fishing
+test/5.jpg,cricket,fly fishing
+test/1.jpg,olympic wrestling,football
+test/2.jpg,bungee jumping,football
+test/3.jpg,cricket,football
+test/4.jpg,baseball,football
+test/5.jpg,field hockey,football
+test/1.jpg,nascar racing,formula 1 racing
+test/2.jpg,sidecar racing,formula 1 racing
+test/3.jpg,formula 1 racing,formula 1 racing
+test/4.jpg,formula 1 racing,formula 1 racing
+test/5.jpg,formula 1 racing,formula 1 racing
+test/1.jpg,frisbee,frisbee
+test/2.jpg,roller derby,frisbee
+test/3.jpg,weightlifting,frisbee
+test/4.jpg,water polo,frisbee
+test/5.jpg,harness racing,frisbee
+test/1.jpg,football,gaga
+test/2.jpg,air hockey,gaga
+test/3.jpg,axe throwing,gaga
+test/4.jpg,nascar racing,gaga
+test/5.jpg,disc golf,gaga
+test/1.jpg,ice climbing,giant slalom
+test/2.jpg,snowmobile racing,giant slalom
+test/3.jpg,luge,giant slalom
+test/4.jpg,giant slalom,giant slalom
+test/5.jpg,giant slalom,giant slalom
+test/1.jpg,gaga,golf
+test/2.jpg,lacrosse,golf
+test/3.jpg,ice yachting,golf
+test/4.jpg,jai alai,golf
+test/5.jpg,croquet,golf
+test/1.jpg,hammer throw,hammer throw
+test/2.jpg,chuckwagon racing,hammer throw
+test/3.jpg,hammer throw,hammer throw
+test/4.jpg,olympic wrestling,hammer throw
+test/5.jpg,weightlifting,hammer throw
+test/1.jpg,surfing,hang gliding
+test/2.jpg,air hockey,hang gliding
+test/3.jpg,water polo,hang gliding
+test/4.jpg,water polo,hang gliding
+test/5.jpg,surfing,hang gliding
+test/1.jpg,horse racing,harness racing
+test/2.jpg,disc golf,harness racing
+test/3.jpg,harness racing,harness racing
+test/4.jpg,harness racing,harness racing
+test/5.jpg,hockey,harness racing
+test/1.jpg,uneven bars,high jump
+test/2.jpg,olympic wrestling,high jump
+test/3.jpg,rings,high jump
+test/4.jpg,high jump,high jump
+test/5.jpg,rings,high jump
+test/1.jpg,mushing,hockey
+test/2.jpg,pole climbing,hockey
+test/3.jpg,speed skating,hockey
+test/4.jpg,figure skating women,hockey
+test/5.jpg,bike polo,hockey
+test/1.jpg,mushing,horse jumping
+test/2.jpg,baseball,horse jumping
+test/3.jpg,croquet,horse jumping
+test/4.jpg,high jump,horse jumping
+test/5.jpg,harness racing,horse jumping
+test/1.jpg,harness racing,horse racing
+test/2.jpg,harness racing,horse racing
+test/3.jpg,polo,horse racing
+test/4.jpg,horse racing,horse racing
+test/5.jpg,barell racing,horse racing
+test/1.jpg,track bicycle,horseshoe pitching
+test/2.jpg,bmx,horseshoe pitching
+test/3.jpg,frisbee,horseshoe pitching
+test/4.jpg,archery,horseshoe pitching
+test/5.jpg,bmx,horseshoe pitching
+test/1.jpg,rollerblade racing,hurdles
+test/2.jpg,basketball,hurdles
+test/3.jpg,hammer throw,hurdles
+test/4.jpg,ice climbing,hurdles
+test/5.jpg,hurdles,hurdles
+test/1.jpg,hurdles,hydroplane racing
+test/2.jpg,surfing,hydroplane racing
+test/3.jpg,hydroplane racing,hydroplane racing
+test/4.jpg,sidecar racing,hydroplane racing
+test/5.jpg,formula 1 racing,hydroplane racing
+test/1.jpg,ice climbing,ice climbing
+test/2.jpg,pole climbing,ice climbing
+test/3.jpg,ice climbing,ice climbing
+test/4.jpg,ice climbing,ice climbing
+test/5.jpg,surfing,ice climbing
+test/1.jpg,mushing,ice yachting
+test/2.jpg,ice yachting,ice yachting
+test/3.jpg,canoe slamon,ice yachting
+test/4.jpg,ice yachting,ice yachting
+test/5.jpg,ice yachting,ice yachting
+test/1.jpg,jai alai,jai alai
+test/2.jpg,baseball,jai alai
+test/3.jpg,jai alai,jai alai
+test/4.jpg,surfing,jai alai
+test/5.jpg,jai alai,jai alai
+test/1.jpg,hammer throw,javelin
+test/2.jpg,sidecar racing,javelin
+test/3.jpg,pommel horse,javelin
+test/4.jpg,hurdles,javelin
+test/5.jpg,ice yachting,javelin
+test/1.jpg,horse racing,jousting
+test/2.jpg,polo,jousting
+test/3.jpg,polo,jousting
+test/4.jpg,croquet,jousting
+test/5.jpg,javelin,jousting
+test/1.jpg,judo,judo
+test/2.jpg,pole vault,judo
+test/3.jpg,judo,judo
+test/4.jpg,judo,judo
+test/5.jpg,judo,judo
+test/1.jpg,football,lacrosse
+test/2.jpg,football,lacrosse
+test/3.jpg,ultimate,lacrosse
+test/4.jpg,lacrosse,lacrosse
+test/5.jpg,tennis,lacrosse
+test/1.jpg,horse jumping,log rolling
+test/2.jpg,billiards,log rolling
+test/3.jpg,disc golf,log rolling
+test/4.jpg,nascar racing,log rolling
+test/5.jpg,figure skating women,log rolling
+test/1.jpg,speed skating,luge
+test/2.jpg,snowmobile racing,luge
+test/3.jpg,harness racing,luge
+test/4.jpg,snowmobile racing,luge
+test/5.jpg,skydiving,luge
+test/1.jpg,horse racing,motorcycle racing
+test/2.jpg,horse jumping,motorcycle racing
+test/3.jpg,tennis,motorcycle racing
+test/4.jpg,formula 1 racing,motorcycle racing
+test/5.jpg,sidecar racing,motorcycle racing
+test/1.jpg,mushing,mushing
+test/2.jpg,hockey,mushing
+test/3.jpg,formula 1 racing,mushing
+test/4.jpg,bobsled,mushing
+test/5.jpg,snowmobile racing,mushing
+test/1.jpg,bmx,nascar racing
+test/2.jpg,boxing,nascar racing
+test/3.jpg,snowmobile racing,nascar racing
+test/4.jpg,formula 1 racing,nascar racing
+test/5.jpg,billiards,nascar racing
+test/1.jpg,olympic wrestling,olympic wrestling
+test/2.jpg,sidecar racing,olympic wrestling
+test/3.jpg,hockey,olympic wrestling
+test/4.jpg,figure skating pairs,olympic wrestling
+test/5.jpg,pommel horse,olympic wrestling
+test/1.jpg,table tennis,parallel bar
+test/2.jpg,balance beam,parallel bar
+test/3.jpg,olympic wrestling,parallel bar
+test/4.jpg,olympic wrestling,parallel bar
+test/5.jpg,uneven bars,parallel bar
+test/1.jpg,bmx,pole climbing
+test/2.jpg,figure skating men,pole climbing
+test/3.jpg,water polo,pole climbing
+test/4.jpg,figure skating men,pole climbing
+test/5.jpg,pole climbing,pole climbing
+test/1.jpg,track bicycle,pole dancing
+test/2.jpg,figure skating men,pole dancing
+test/3.jpg,figure skating pairs,pole dancing
+test/4.jpg,speed skating,pole dancing
+test/5.jpg,formula 1 racing,pole dancing
+test/1.jpg,surfing,pole vault
+test/2.jpg,ski jumping,pole vault
+test/3.jpg,barell racing,pole vault
+test/4.jpg,ice yachting,pole vault
+test/5.jpg,skydiving,pole vault
+test/1.jpg,polo,polo
+test/2.jpg,horse racing,polo
+test/3.jpg,polo,polo
+test/4.jpg,croquet,polo
+test/5.jpg,polo,polo
+test/1.jpg,pommel horse,pommel horse
+test/2.jpg,parallel bar,pommel horse
+test/3.jpg,judo,pommel horse
+test/4.jpg,sumo wrestling,pommel horse
+test/5.jpg,pommel horse,pommel horse
+test/1.jpg,rings,rings
+test/2.jpg,hurdles,rings
+test/3.jpg,sumo wrestling,rings
+test/4.jpg,baseball,rings
+test/5.jpg,ice yachting,rings
+test/1.jpg,horse jumping,rock climbing
+test/2.jpg,ice climbing,rock climbing
+test/3.jpg,horse jumping,rock climbing
+test/4.jpg,track bicycle,rock climbing
+test/5.jpg,luge,rock climbing
+test/1.jpg,formula 1 racing,roller derby
+test/2.jpg,olympic wrestling,roller derby
+test/3.jpg,hockey,roller derby
+test/4.jpg,formula 1 racing,roller derby
+test/5.jpg,mushing,roller derby
+test/1.jpg,harness racing,rollerblade racing
+test/2.jpg,harness racing,rollerblade racing
+test/3.jpg,basketball,rollerblade racing
+test/4.jpg,figure skating women,rollerblade racing
+test/5.jpg,hockey,rollerblade racing
+test/1.jpg,disc golf,rowing
+test/2.jpg,surfing,rowing
+test/3.jpg,water polo,rowing
+test/4.jpg,rowing,rowing
+test/5.jpg,surfing,rowing
+test/1.jpg,olympic wrestling,rugby
+test/2.jpg,rugby,rugby
+test/3.jpg,ampute football,rugby
+test/4.jpg,lacrosse,rugby
+test/5.jpg,rugby,rugby
+test/1.jpg,sailboat racing,sailboat racing
+test/2.jpg,skydiving,sailboat racing
+test/3.jpg,sailboat racing,sailboat racing
+test/4.jpg,sailboat racing,sailboat racing
+test/5.jpg,surfing,sailboat racing
+test/1.jpg,basketball,shot put
+test/2.jpg,javelin,shot put
+test/3.jpg,roller derby,shot put
+test/4.jpg,pommel horse,shot put
+test/5.jpg,pole climbing,shot put
+test/1.jpg,shuffleboard,shuffleboard
+test/2.jpg,shuffleboard,shuffleboard
+test/3.jpg,air hockey,shuffleboard
+test/4.jpg,pommel horse,shuffleboard
+test/5.jpg,sumo wrestling,shuffleboard
+test/1.jpg,nascar racing,sidecar racing
+test/2.jpg,sidecar racing,sidecar racing
+test/3.jpg,steer wrestling,sidecar racing
+test/4.jpg,formula 1 racing,sidecar racing
+test/5.jpg,snowmobile racing,sidecar racing
+test/1.jpg,figure skating men,ski jumping
+test/2.jpg,rollerblade racing,ski jumping
+test/3.jpg,skydiving,ski jumping
+test/4.jpg,surfing,ski jumping
+test/5.jpg,water polo,ski jumping
+test/1.jpg,sailboat racing,sky surfing
+test/2.jpg,wingsuit flying,sky surfing
+test/3.jpg,snow boarding,sky surfing
+test/4.jpg,sailboat racing,sky surfing
+test/5.jpg,figure skating men,sky surfing
+test/1.jpg,sailboat racing,skydiving
+test/2.jpg,skydiving,skydiving
+test/3.jpg,swimming,skydiving
+test/4.jpg,skydiving,skydiving
+test/5.jpg,sailboat racing,skydiving
+test/1.jpg,ice climbing,snow boarding
+test/2.jpg,giant slalom,snow boarding
+test/3.jpg,water cycling,snow boarding
+test/4.jpg,rowing,snow boarding
+test/5.jpg,pole vault,snow boarding
+test/1.jpg,sailboat racing,snowmobile racing
+test/2.jpg,sidecar racing,snowmobile racing
+test/3.jpg,hockey,snowmobile racing
+test/4.jpg,figure skating men,snowmobile racing
+test/5.jpg,snowmobile racing,snowmobile racing
+test/1.jpg,rollerblade racing,speed skating
+test/2.jpg,snowmobile racing,speed skating
+test/3.jpg,giant slalom,speed skating
+test/4.jpg,parallel bar,speed skating
+test/5.jpg,snowmobile racing,speed skating
+test/1.jpg,barell racing,steer wrestling
+test/2.jpg,figure skating men,steer wrestling
+test/3.jpg,barell racing,steer wrestling
+test/4.jpg,rugby,steer wrestling
+test/5.jpg,harness racing,steer wrestling
+test/1.jpg,olympic wrestling,sumo wrestling
+test/2.jpg,arm wrestling,sumo wrestling
+test/3.jpg,judo,sumo wrestling
+test/4.jpg,sumo wrestling,sumo wrestling
+test/5.jpg,judo,sumo wrestling
+test/1.jpg,water polo,surfing
+test/2.jpg,swimming,surfing
+test/3.jpg,rowing,surfing
+test/4.jpg,mushing,surfing
+test/5.jpg,surfing,surfing
+test/1.jpg,water polo,swimming
+test/2.jpg,water polo,swimming
+test/3.jpg,water polo,swimming
+test/4.jpg,log rolling,swimming
+test/5.jpg,surfing,swimming
+test/1.jpg,pole climbing,table tennis
+test/2.jpg,swimming,table tennis
+test/3.jpg,field hockey,table tennis
+test/4.jpg,table tennis,table tennis
+test/5.jpg,table tennis,table tennis
+test/1.jpg,water polo,tennis
+test/2.jpg,fencing,tennis
+test/3.jpg,water polo,tennis
+test/4.jpg,trapeze,tennis
+test/5.jpg,shuffleboard,tennis
+test/1.jpg,track bicycle,track bicycle
+test/2.jpg,track bicycle,track bicycle
+test/3.jpg,track bicycle,track bicycle
+test/4.jpg,croquet,track bicycle
+test/5.jpg,barell racing,track bicycle
+test/1.jpg,giant slalom,trapeze
+test/2.jpg,figure skating women,trapeze
+test/3.jpg,canoe slamon,trapeze
+test/4.jpg,water polo,trapeze
+test/5.jpg,air hockey,trapeze
+test/1.jpg,polo,tug of war
+test/2.jpg,horse racing,tug of war
+test/3.jpg,lacrosse,tug of war
+test/4.jpg,polo,tug of war
+test/5.jpg,barell racing,tug of war
+test/1.jpg,croquet,ultimate
+test/2.jpg,frisbee,ultimate
+test/3.jpg,ampute football,ultimate
+test/4.jpg,croquet,ultimate
+test/5.jpg,rugby,ultimate
+test/1.jpg,rings,uneven bars
+test/2.jpg,baton twirling,uneven bars
+test/3.jpg,rollerblade racing,uneven bars
+test/4.jpg,baseball,uneven bars
+test/5.jpg,rings,uneven bars
+test/1.jpg,nascar racing,volleyball
+test/2.jpg,pommel horse,volleyball
+test/3.jpg,bmx,volleyball
+test/4.jpg,water cycling,volleyball
+test/5.jpg,basketball,volleyball
+test/1.jpg,water cycling,water cycling
+test/2.jpg,water cycling,water cycling
+test/3.jpg,judo,water cycling
+test/4.jpg,horse jumping,water cycling
+test/5.jpg,pole climbing,water cycling
+test/1.jpg,water polo,water polo
+test/2.jpg,water polo,water polo
+test/3.jpg,water polo,water polo
+test/4.jpg,water polo,water polo
+test/5.jpg,water polo,water polo
+test/1.jpg,weightlifting,weightlifting
+test/2.jpg,parallel bar,weightlifting
+test/3.jpg,weightlifting,weightlifting
+test/4.jpg,field hockey,weightlifting
+test/5.jpg,water polo,weightlifting
+test/1.jpg,nascar racing,wheelchair basketball
+test/2.jpg,sumo wrestling,wheelchair basketball
+test/3.jpg,mushing,wheelchair basketball
+test/4.jpg,sidecar racing,wheelchair basketball
+test/5.jpg,olympic wrestling,wheelchair basketball
+test/1.jpg,roller derby,wheelchair racing
+test/2.jpg,weightlifting,wheelchair racing
+test/3.jpg,snow boarding,wheelchair racing
+test/4.jpg,figure skating men,wheelchair racing
+test/5.jpg,hockey,wheelchair racing
+test/1.jpg,harness racing,wingsuit flying
+test/2.jpg,formula 1 racing,wingsuit flying
+test/3.jpg,golf,wingsuit flying
+test/4.jpg,track bicycle,wingsuit flying
+test/5.jpg,horse jumping,wingsuit flying
