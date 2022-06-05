@@ -1,17 +1,23 @@
 <p align="center"> 
-  <img src="image/Email Logo.png" alt="Email Logo.png" width="80px" height="80px">
+  <center><img src="website/netImage.png" alt="Net Image.png" width="80px" height="80px"></center>
 </p>
 <h1 align="center"> Sports Images Classifier </h1>
 <h3 align="center"> CSE 455 - Computer Vision </h3>
 <h5 align="center"> Final Project - <a href="https://courses.cs.washington.edu/courses/cse455/22sp/">University of Washington</a> (Spring 2022) </h5>
 
-<p align="center"> 
-<img src="gif/spam detector.gif" alt="Animated gif pacman game" height="382px">
-</p>
+<h2> <img src="website/problemDescription.png" alt="Problem Description.png" width="50px" height="50px"> Problem Description</h2>
+<p>Sports have always been an important part of my life, providing me with the motivation to constantly improve my skills and health, help build releationships and connections with others, and teach me lessons about teamwork and perserverance that carry over into my other pursuits. My project directly relates to this passion and aims to analyze a variety of images containing sports and classify them using neural networks and computer vision. My data comes from this <a href="https://www.kaggle.com/datasets/gpiosenka/sports-classification?resource=download">Kaggle Competition</a></p>
 
-<p>I have developed a spam detector program in Python which classifies given emails as spam or ham using the Naive Bayes approach.</p>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :floppy_disk: Project Files Description</h2>
+<h2><img src="website/preexisting.png" alt="Preexisting Work.png" width="50px" height="50px"> Preexisting Work</h2>
+<p>Sports have always been an important part of my life, </p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> <img src="website/projectStructure.webp" alt="Project Structure.png" width="50px" height="50px"> Project Files</h2>
+
+All files can be found repo.
 
 <p>This Project includes 3 executable files, 3 text files as well as 2 directories as follows:</p>
 <h4>Executable Files:</h4>
@@ -36,7 +42,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: Naive Bayes</h2>
+<h2> :book: Dataset and Preprocessing</h2>
 
 <p>In machine learning, naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naive) independence assumptions between the features.
 Abstractly, naive Bayes is a conditional probability model: given a problem instance to be classified, represented by a vector
@@ -50,7 +56,7 @@ Abstractly, naive Bayes is a conditional probability model: given a problem inst
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :clipboard: Execution Instruction</h2>
+<h2> :clipboard: Approach</h2>
 <p>The order of execution of the program files is as follows:</p>
 <p><b>1) spam_detector.py</b></p>
 <p>First, the spam_detector.py file must be executed to define all the functions and variables required for classification operations.</p>
@@ -63,7 +69,19 @@ Just like the train.py file, at the beginning of this file, the spam_detector ha
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :books: Refrences</h2>
+<h2> :clipboard: Results</h2>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> :clipboard: Comparison</h2>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> :clipboard: Discussion</h2>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> <img src="website/references.png" alt="Problem Description.png" width="50px" height="50px">  Refrences</h2>
 <ul>
   <li><p>Joseph Redmon, 'iPynb Tutorial Series'. [Online].</p>
       <p>Available: https://courses.cs.washington.edu/courses/cse455/22sp/</p>
