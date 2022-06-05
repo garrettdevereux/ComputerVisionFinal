@@ -45,5 +45,3 @@ Realworld set:
 Got kicked off GPU quick and spent lots of time waiting for training. 
 Really cool to figure out how to do everything on my own, I feel that
 I could confidently complete my own independent project.
-
-Overall:
