@@ -62,11 +62,11 @@ All files from this project can be found in the <a href="https://github.com/garr
 
 <p>The sportsImages dataset contains images from 100 different sports from air hockey to wingsuit flying. Reference the class_dict.csv (link here) for all of the classes. There are 13572 images in the training set, and 500 in both the test and validation set. The images are 3x224x224 which I then size down to 3x150x150 to help reduce the dimensions and train faster. This greatly reduces the size of the simple model, which is still too big to store on github. On my first attempt of training the models, I performed a resize, random crop, random horizontal flip, random rotation, and then added gaussian noise to each image. 32 of these images looked like:</p>
 <p align="center"> 
-  <center><img src="Results/DatasetExampleImages/DatasetFirstTry.png" alt="DatasetFirst.png" ="80px"></center>
+  <center><img src="Results/DatasetExampleImages/DatasetFirstTry.png" alt="DatasetFirst.png"></center>
 </p>
 <p>After training the models for the first time, I found the test accuracy was terrible, resulting in around 10% test accuracy for the simple model, 50% for the convolutional model, and 37% for the pretrained resnet18. It was clear that this augmentation was too different from the test set and was hurting the performance much more than it was helping. So, after experimenting with a variety of other augmentations, I finally found the right mix of Gaussian noise and rotation range to get the following: </p>
 <p align="center"> 
-  <center><img src="Results/DatasetExampleImages/Dataset.png" alt="Dataset.png" ="80px"></center>
+  <center><img src="Results/DatasetExampleImages/Dataset.png" alt="Dataset.png"></center>
 </p>
 <p>In order to load this dataset and perform the augmentations, view the sections 'Loading the Dataset', 'Data Augmentation', and 'Understanding the Dataset' in Final_Project.ipynb. These sections will also provide more in depth explanations of how to access and manipulate images, as well as how to print out batches like the two above.</p>
 
@@ -102,7 +102,7 @@ I could confidently complete my own independent project.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> <img src="website/references.png" alt="Problem Description.png" width="50px" height="50px">  Refrences</h2>
+<h2> <img src="website/references.png" alt="Problem Description.png" width="50px" height="50px">  References</h2>
 <ul>
   <li><p>Joseph Redmon, 'iPynb Tutorial Series'. [Online].</p>
       <p>Available: https://courses.cs.washington.edu/courses/cse455/22sp/</p>
