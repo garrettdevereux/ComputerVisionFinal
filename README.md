@@ -5,9 +5,7 @@
   <a href="https://github.com/garrettdevereux/ComputerVisionFinal"><img src="https://img.shields.io/badge/Video----red"></a>
 </p>
 
-<p align="center"> 
-  <center><img src="website/netImage.png" alt="Net Image.png" width="80px" height="80px"></center>
-</p>
+<p align="center"> <center><img src="website/netImage.png" alt="Net Image.png" width="80px" height="80px"></center></p>
 <h1 align="center"> Sports Images Classifier </h1>
 <h3 align="center"> CSE 455 - Computer Vision </h3>
 <h5 align="center"> Final Project - Garrett Devereux - <a href="https://courses.cs.washington.edu/courses/cse455/22sp/">University of Washington</a> (Spring 2022) </h5>
@@ -58,7 +56,7 @@ All files from this project can be found in the <a href="https://github.com/garr
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> <img src="website/projectStructure.webp" alt="Project Structure.png" width="50px" height="50px">Dataset and Preprocessing</h2>
+<h2> <img src="website/preprocess.jpg" alt="process.png" width="50px" height="50px">Dataset and Preprocessing</h2>
 
 <p>The sportsImages dataset contains images from 100 different sports from air hockey to wingsuit flying. Reference the class_dict.csv (link here) for all of the classes. There are 13572 images in the training set, and 500 in both the test and validation set. The images are 3x224x224 which I then size down to 3x150x150 to help reduce the dimensions and train faster. This greatly reduces the size of the simple model, which is still too big to store on github. On my first attempt of training the models, I performed a resize, random crop, random horizontal flip, random rotation, and then added gaussian noise to each image. 32 of these images looked like:</p>
 <p align="center"> 
@@ -92,42 +90,46 @@ All files from this project can be found in the <a href="https://github.com/garr
 
 <p><b>Models Implemented:</b></p>
 <ul>
-						<li>SimpleNet</li>
-							<ul>
-								<li>1 Hidden Layer with Leaky Relu Activation</li>
-								<li>Structure:</li>
-									<ul>
-										<li>Linear(67500, 512)</li>
-										<li>Linear(512, 100)</li>
-									</ul>
-							</ul>
-						<li>ConvNet</li>
-							<ul>
-								<li>DarkNet Architecture: 5 Convolutional Layers with batch normalization and a linear layer</li>
-								<li>Structure:</li>
-									<ul>
-										<li>Conv2d(3, 16, 3, stride=3, padding=1)</li>
-										<li>BatchNorm2d(16)</li>
-										<li>Conv2d(16, 32, 3, stride=2, padding=1)</li>
-                    <li>BatchNorm2d(32)</li>
-										<li>Conv2d(32, 64, 3, stride=1, padding=1)</li>
-										<li>BatchNorm2d(64)</li>
-										<li>Conv2d(64, 128, 3, stride=2, padding=1)</li>
-										<li>BatchNorm2d(128)</li>
-										<li>Conv2d(128, 256, 3, stride=2, padding=1)</li>
-										<li>BatchNorm2d(256)</li>
-										<li>Linear(256, 100)</li>
-									</ul>
-							</ul>
-						<li>Resnetv1 and Resnetv2</li>
-							<ul>
-                <li>Structure:</li>
-							</ul>
-              <li>Efficientnet_b0</li>
-							<ul>
-								<li>Structure:</li>
-							</ul>
-					</ul>
+	<li>SimpleNet</li>
+	<ul>
+		<li>1 Hidden Layer with Leaky Relu Activation</li>
+		<li>Structure:</li>
+		<ul>
+			<li>Linear(67500, 512)</li>
+			<li>Linear(512, 100)</li>
+		</ul>
+	</ul>
+	<li>ConvNet</li>
+	<ul>
+		<li>DarkNet Architecture: 5 Convolutional Layers with batch normalization and a linear layer</li>
+		<li>Structure:</li>
+		<ul>
+			<li>Conv2d(3, 16, 3, stride=3, padding=1)</li>
+			<li>BatchNorm2d(16)</li>
+		  <li>Conv2d(16, 32, 3, stride=2, padding=1)</li>
+      <li>BatchNorm2d(32)</li>
+			<li>Conv2d(32, 64, 3, stride=1, padding=1)</li>
+			<li>BatchNorm2d(64)</li>
+			<li>Conv2d(64, 128, 3, stride=2, padding=1)</li>
+			<li>BatchNorm2d(128)</li>
+			<li>Conv2d(128, 256, 3, stride=2, padding=1)</li>
+			<li>BatchNorm2d(256)</li>
+			<li>Linear(256, 100)</li>
+		</ul>
+	</ul>
+	<li>Resnetv1 and Resnetv2</li>
+	<ul>
+    <li>Structure:</li>
+		<img src="website/resnet18_arch.png" alt="res18.png" width="50px">
+		<img src="website/resnet18-diag.png" alt="res18.png" width="50px">
+	</ul>
+  <li>Efficientnet_b0</li>
+	<ul>
+		<li>Structure:</li>
+		<img src="website/effnetb0_arch.png" alt="eff.png" width="50px">
+		<img src="website/effnetb0.png" alt="eff.png" width="50px">
+	</ul>
+</ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -138,7 +140,7 @@ All files from this project can be found in the <a href="https://github.com/garr
 <p><b> SimpleNet: </b></p>
 <p> 20 Epochs, LR shedule: {0:0.01, 15: 0.001}, Batch Size: 128.</p>
 <p> <img src="Results/TrainingResults/simpleTraining.png" alt="simpleTraining.png"></p>
-<p> Performance: Training loss ending at 3.4. <b>20.2% Testing Accuracy</b>. See (here) for full loss data.
+<p> Performance: Training loss ending at 3.4. <b>20.2% Testing Accuracy</b>. See (here) for full loss and here for predictions vs actual.
 
 <p><b> ConvNet: </b></p>
 <p> 20 Epochs, LR shedule: {0:0.1, 5:0.01, 15: 0.001}, Batch Size: 128.</p>
@@ -163,13 +165,56 @@ All files from this project can be found in the <a href="https://github.com/garr
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :clipboard: Comparison</h2>
+<p><b> Validation Comparison </b></p>
+First, I wanted to compare and contrast how each model interpreted different images. I wanted to see if the models generally agreed, or if they failed how similar their incorrect prediction was to the correct one. I also thought it would be interesting to see if the pretrained models would disagree. Here are the results I found when running each model on a random batch of validation photos: </p>
+<p> 
+<img src="Results/ComparisonResults/validImage1.png" alt="c1.png" width="50px">
+<img src="Results/ComparisonResults/validImage2.png" alt="c2.png" width="50px">
+<img src="Results/ComparisonResults/validImage3.png" alt="c3.png" width="50px">
+<img src="Results/ComparisonResults/validImage4.png" alt="c4.png" width="50px">
+<img src="Results/ComparisonResults/validImage5.png" alt="c5.png" width="50px">
+<img src="Results/ComparisonResults/validImage6.png" alt="c6.png" width="50px">
+<img src="Results/ComparisonResults/validImage7.png" alt="c7.png" width="50px">
+<img src="Results/ComparisonResults/validImage8.png" alt="c8.png" width="50px">
+<img src="Results/ComparisonResults/validImage9.png" alt="c9.png" width="50px">
+<img src="Results/ComparisonResults/validImage10.png" alt="c10.png" width="50px">
+<img src="Results/ComparisonResults/validImage11.png" alt="c11.png" width="50px">
+</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<p> Overall, these results were very consistent with the testing accuracy... Simple way off, also close with background colors. Differences in pre trained models.  </p>
 
-<h2> :clipboard: Discussion</h2>
-<p>Got kicked off GPU quick and spent lots of time waiting for training. 
-Really cool to figure out how to do everything on my own, I feel that
-I could confidently complete my own independent project.</p>
+<p><b> Real World Comparison </b></p>
+Finally, I wanted to see how the models could do off in the real world. I compiled the set of images 'real_world' which contains 20 images of me doing a bunch of different activites. These include photos of me playing football and baseball in high school (and even T-ball), kayaking, paddle boarding and surfing, and other photos of me and my friends posing for a photo on a basketball court, football field, or golf course. These photos have no labels, and some don't even match a sport but we can still examine how the models make their predictions. Here are the models predicting the classes for these photos: </p>
+
+<p> 
+<img src="Results/ComparisonResults/realImage1.png" alt="c1.png" width="50px">
+<img src="Results/ComparisonResults/realImage2.png" alt="c2.png" width="50px">
+<img src="Results/ComparisonResults/realImage3.png" alt="c3.png" width="50px">
+<img src="Results/ComparisonResults/realImage4.png" alt="c4.png" width="50px">
+<img src="Results/ComparisonResults/realImage5.png" alt="c5.png" width="50px">
+<img src="Results/ComparisonResults/realImage6.png" alt="c6.png" width="50px">
+<img src="Results/ComparisonResults/realImage7.png" alt="c7.png" width="50px">
+<img src="Results/ComparisonResults/realImage8.png" alt="c8.png" width="50px">
+<img src="Results/ComparisonResults/realImage9.png" alt="c9.png" width="50px">
+<img src="Results/ComparisonResults/realImage10.png" alt="c10.png" width="50px">
+<img src="Results/ComparisonResults/realImage11.png" alt="c11.png" width="50px">
+<img src="Results/ComparisonResults/realImage12.png" alt="c12.png" width="50px">
+<img src="Results/ComparisonResults/realImage13.png" alt="c13.png" width="50px">
+<img src="Results/ComparisonResults/realImage14.png" alt="c14.png" width="50px">
+<img src="Results/ComparisonResults/realImage15.png" alt="c15.png" width="50px">
+<img src="Results/ComparisonResults/realImage16.png" alt="c16.png" width="50px">
+<img src="Results/ComparisonResults/realImage17.png" alt="c17.png" width="50px">
+<img src="Results/ComparisonResults/realImage18.png" alt="c18.png" width="50px">
+<img src="Results/ComparisonResults/realImage19.png" alt="c19.png" width="50px">
+<img src="Results/ComparisonResults/realImage20.png" alt="c20.png" width="50px">
+</p>
+
+
+<p>As these are much different from the testing set, it makes sense that the models don't do great. It seems that the action shots for football and baseball are classified pretty well by all of the models. However, there is a lot of confusion for the photos where I am just standing and posing. (More analysis.)
+
+Overall, it is really cool to see how each model's learning transfers to a different set in the real world.
+
+Note: See the 'Comparison of the Models', 'Comparison Function', 'Compare on Validation', and 'Real World Application' in Final_Project (link) to see a full explanation as well as how the code was implemented to aquire these results.</p>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -181,9 +226,6 @@ I could confidently complete my own independent project.</p>
   </li>
   <li><p>Gerry's Kaggle Dataset, '100 Sports Image Classification'. [Online].</p>
       <p>Available: https://www.kaggle.com/datasets/gpiosenka/sports-classification?resource=download</p>
-  </li>
-  <li><p>Mohammad Amin Shamshiri, 'READMD.md template'. [Online].</p>
-      <p>Available: https://github.com/ma-shamshiri/Spam-Detector/blob/master/README.md</p>
   </li>
 </ul>
 
