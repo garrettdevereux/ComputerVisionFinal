@@ -2,7 +2,7 @@
   <a href="https://github.com/garrettdevereux/ComputerVisionFinal"><img src="https://img.shields.io/badge/Repo----blue"></a>
   <a href="https://github.com/garrettdevereux/ComputerVisionFinal/blob/main/Final_Project.ipynb"><img src="https://img.shields.io/badge/Code----green"></a>
   <a href="https://www.kaggle.com/datasets/gpiosenka/sports-classification?resource=download"><img src="https://img.shields.io/badge/Dataset----yellow"></a>
-  <a href="https://github.com/garrettdevereux/ComputerVisionFinal"><img src="https://img.shields.io/badge/Video----red"></a>
+  <a href="https://youtu.be/nV6E9l5Wi9Q"><img src="https://img.shields.io/badge/Video----red"></a>
 </p>
 
 <p align="center"> <img src="website/netImage.png" alt="Net Image.png" width="80px" height="80px"></p>
@@ -22,7 +22,7 @@
 
 <h2> <img src="website/projectStructure.webp" alt="Project Structure.png" width="50px" height="50px"> Project Files</h2>
 
-All files from this project can be found in the <a href="https://github.com/garrettdevereux/ComputerVisionFinal">Repository</a>. The video presentation is linked at the top of this webpage and can be found <a href="https://github.com/garrettdevereux/ComputerVisionFinal">here</a>.
+All files from this project can be found in the <a href="https://github.com/garrettdevereux/ComputerVisionFinal">Repository</a>. The video presentation is linked at the top of this webpage and can be found <a href="https://youtu.be/nV6E9l5Wi9Q">here</a>.
 
 <p>This Project includes a Colab notebook with all of the code, a dataset folder, and a results folder.</p>
 <h4>Code:</h4>
