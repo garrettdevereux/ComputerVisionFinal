@@ -78,13 +78,13 @@ All files from this project can be found in the <a href="https://github.com/garr
 <p>I first approached the problem by building a very simple model to get a baseline accuracy score and an idea of how complex the dataset is to learn. This simple model is called SimpleNet and is a very vanilla Neural Network with a single hidden layer using Leaky-Relu activation. As the input images are augmented down to (3 x 150 x 150) the input size will be 67500. Additionally, since the model is making predictions for 100 classes, the final layer needs to be of size 100. With a hidden layer size of 512, there will be 34,611,200 (67500x512 + 512x100) different weights in the model. </p>
 
 <p><b> ConvNet </b></p>
-<p>As a better approach, I next worked to take advantage of the structure of images with convolutions, batch normalization, and pooling to greatly reduce the size of the network while increasing its power. Here I referenced Professor Redmon's demo lecture on Convolutional Neural Networks and chose to use the <a href="https://pjreddie.com/darknet/imagenet/#reference">Darknet Architecture</a>. As my images were much larger than the example (3x150x150 vs 3x64x64), I worked to tweak the strides and sizes of the different convolutions to produce a reasonably sized outcome. This resulted in five convolutions taking mapping the input image to the following sizes: (3x150x150)->(16x50x50)->(32x25x25)->(64x13x13)->(128x7x7)->(256x4x4). Additionally, I changed the final output layer to size 100 to fit the number of classes in my dataset. </p>
+<p>As a better approach, I next worked to take advantage of the structure of images with convolutions, batch normalization, and pooling to greatly reduce the size of the network while increasing its power. Here I referenced Professor Redmon's demo lecture on Convolutional Neural Networks and chose to use the <a href="https://pjreddie.com/darknet/imagenet/#reference">Darknet Architecture</a>. As my images were much larger than the example (3x150x150 vs 3x64x64), I worked to tweak the strides and sizes of the different convolutions to produce a reasonably sized outcome. This resulted in five convolutions mapping the input image to the following sizes: (3x150x150)->(16x50x50)->(32x25x25)->(64x13x13)->(128x7x7)->(256x4x4). Additionally, I changed the final output layer to size 100 to fit the number of classes in my dataset. </p>
 
 <p><b> ResNetv1 </b></p>
 <p> To continue to increase model performance, I then moved to using transfer learning on pretrained networks. As a first try of this, I again followed Redmon's demo and fit the pretrained resnet18 model to my own dataset. This required me to change the final fully connected layer to map to 100 classes rather than the over 20,000 categories of ImageNet.</p>
 
 <p><b> ResNetv2 and EffNet </b></p>
-<p>Finally, I wanted to build a model better than all of the above by taking advantage of the techniques that worked and continuing to tweak the parameters and process. As transfer learning worked the best, I first worked to experiment with data augmentation to see if I could find transformations that would produce better results. Using the exact same resnet18 architecture referenced above, I tried several new augmentations, adding more and less rotation and noise, removing the flipping and cropping of images, and in the end, I found that keeping the horizontal image flips, removing the rotations and noise, and normalizing the image before putting it through the network worked the best. With this knowledge, I then again took advantage of transfer learning to bring in the Efficientnet_b0 with the new set of augmentations.</p>
+<p>Finally, I wanted to build a model better than all of the above by taking advantage of the techniques that worked and continuing to tweak the parameters and process. As the Resnet transfer learning worked the best, I first wanted to use the same model with different data augmentation to see if I could find transformations that would produce better results. Using the exact same resnet18 architecture referenced above, I tried several new augmentations, adding more and less rotation and noise, removing the flipping and cropping of images, and in the end, I found that keeping the horizontal image flips, removing the rotations and noise, and normalizing the image before putting it through the network worked the best. With this knowledge, I then again took advantage of transfer learning to bring in the Efficientnet_b0 with the new set of augmentations.</p>
 
 <p><b>Models Implemented:</b></p>
 <ul>
@@ -106,7 +106,7 @@ All files from this project can be found in the <a href="https://github.com/garr
 			<li>BatchNorm2d(16)</li>
 		  <li>Conv2d(16, 32, 3, stride=2, padding=1)</li>
       <li>BatchNorm2d(32)</li>
-			<li>Conv2d(32, 64, 3, stride=1, padding=1)</li>
+			<li>Conv2d(32, 64, 3, stride=2, padding=1)</li>
 			<li>BatchNorm2d(64)</li>
 			<li>Conv2d(64, 128, 3, stride=2, padding=1)</li>
 			<li>BatchNorm2d(128)</li>
@@ -226,7 +226,7 @@ Finally, I wanted to see how the models could do off in the real world. I compil
 </p>
 
 
-<p>As these images are much different from the training and testing sets, it makes sense that the models don't do great. It seems that most of the action shots are classified pretty well by the models, but there is a lot of confusion for the photos where I am just standing and posing. Overall, it is really cool to see how each model's learning transfers to a different set in the real world.</p>
+<p>As these images are much different from the training and testing sets, it makes sense that the models don't do great. It seems that most of the action shots are classified pretty well by the models, but there is a lot of confusion for the photos where I am just standing and posing. Overall, it is really interesting to see how each model's learning transfers to a different set in the real world.</p>
 
 <p>Note: See the 'Comparison of the Models', 'Comparison Function', 'Compare on Validation', and 'Real World Application' in <a href="https://github.com/garrettdevereux/ComputerVisionFinal/blob/main/Final_Project.ipynb">Final_Project.ipynb</a> for a full explanation as well as how the code was implemented to aquire these results.</p>
 
