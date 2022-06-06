@@ -18,7 +18,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2><img src="website/preexisting.png" alt="Preexisting Work.png" width="50px" height="50px"> Preexisting Work</h2>
-<p>All of the code in this repository is brand new for this project, using Joseph Redmon's PyTorch tutorial (link here) as inspiration and utilizing the Kaggle Sports Images Dataset (link here). All of the implementation resides in Final_Project.ipynb (link here) from a Colab project, and contains comprehensive documentation. The notebook provides a step-by-step walk though of the project as well as an analysis of the results. This site only synthesizes the information found from the notebook.  </p>
+<p>All of the code in this repository is brand new for this project, using Professor Joseph Redmon's PyTorch tutorial (link here) as inspiration and utilizing the Kaggle Sports Images Dataset (link here). All of the implementation resides in Final_Project.ipynb (link here) from a Colab project, and contains comprehensive documentation. The notebook provides a step-by-step walk though of the project as well as an analysis of the results. This site only synthesizes the information found from the notebook.  </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -73,20 +73,92 @@ All files from this project can be found in the <a href="https://github.com/garr
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :clipboard: Approach</h2>
-<p>The order of execution of the program files is as follows:</p>
-<p><b>1) spam_detector.py</b></p>
-<p>First, the spam_detector.py file must be executed to define all the functions and variables required for classification operations.</p>
-<p><b>2) train.py</b></p>
-<p>Then, the train.py file must be executed, which leads to the production of the model.txt file. 
-At the beginning of this file, the spam_detector has been imported so that the functions defined in it can be used.</p>
-<p><b>3) test.py</b></p>
-<p>Finally, the test.py file must be executed to create the result.txt and evaluation.txt files.
-Just like the train.py file, at the beginning of this file, the spam_detector has been imported so that the functions defined in it can be used.</p>
+<h2> <img src="website/projectStructure.webp" alt="Project Structure.png" width="50px" height="50px">Approach</h2>
+<p><b> Building networks for classification </b></p>
+
+<p><b> SimpleNet </b></p>
+<p>I first approached the problem by building a very simple model to get a baseline accuracy score and an idea of how comlplex the dataset is to learn. This simple model is called SimpleNet, and is a very vanilla Neural Network with a single hidden layer using leak relu activation. As the input images are augmented down to (3 x 150 x 150) the input size will be 67500. Additionally, since the model is making predictions for 100 classes, the final layer needs to be of size 100. With a hidden layer size of 512, there will be 34,611,200 (67500x512 + 512x100) different weights in the model. </p>
+
+<p><b> Convnet </b></p>
+<p>As a better approach, I next worked to take advantage of the structure of images with convolutions, batch normalization, and pooling to greatly reduce the size of the network while increasing its power. Here I referenced Professor Redmon's demo lecture on Convolutional Neural Networks and chose to use the Darknet Architecture (link). As my images we much larger than the example (3x150x150 vs 3x64x64), I worked to tweak the strides of the different convolutions to produce a reasonably size result. This resulted in five convolutions taking the (3x150x150)->(16x50x50)->(32x25x25)->(64x13x13)->(128x7x7)->(256x4x4). Additionally, I changed the final output layer to size 100 to fits the number of classes in my dataset. </p>
+
+<p><b> Resnetv1 </b></p>
+<p> To continue to increase model performance, I then moved to using transfer learning on pretrained networks. As a first try of this, I again followed Redmon's demo and fit the pretrained resnet18 model to my own dataset. This required me to change the final fully connected layer to map to 100 classes rather than the over 20,000 categories of ImageNet.</p>
+
+<p><b> Resnetv2 and Effnet </b></p>
+<p>Finally, I wanted build a model better than all of the above by taking advantage of the techniques that worked and continuing to tweak the parameters and process. As transfer learning worked the best, I first worked to experiment with the data augmentation to see if I could find transformations that would produce better results. Using the exact same resnet18 architecture referenced above, I tried several different augmentations, adding more and less rotation and noise, removing the flipping and cropping of images, and in the end I found that keeping the horizontal image flips, removing the rotations and noise, and normalizing the image before putting it through the network worked the best. With this knowledge, I then again took advantage of transfer learning to bring in the Efficientnet_b0 with the new set of augmentations.</p>
+
+<p> For futher reference, each of these models is implemented in Final Project (link) with full explanation and results.
+
+<p><b>Models Implemented:</b></p>
+<ul>
+						<li>SimpleNet</li>
+							<ul>
+								<li>1 Hidden Layer with Leaky Relu Activation</li>
+								<li>Structure:</li>
+									<ul>
+										<li>Linear(67500, 512)</li>
+										<li>Linear(512, 100)</li>
+									</ul>
+							</ul>
+						<li>ConvNet</li>
+							<ul>
+								<li>DarkNet Architecture: 5 Convolutional Layers with batch normalization and a linear layer</li>
+								<li>Structure:</li>
+									<ul>
+										<li>Conv2d(3, 16, 3, stride=3, padding=1)</li>
+										<li>BatchNorm2d(16)</li>
+										<li>Conv2d(16, 32, 3, stride=2, padding=1)</li>
+                    <li>BatchNorm2d(32)</li>
+										<li>Conv2d(32, 64, 3, stride=1, padding=1)</li>
+										<li>BatchNorm2d(64)</li>
+										<li>Conv2d(64, 128, 3, stride=2, padding=1)</li>
+										<li>BatchNorm2d(128)</li>
+										<li>Conv2d(128, 256, 3, stride=2, padding=1)</li>
+										<li>BatchNorm2d(256)</li>
+										<li>Linear(256, 100)</li>
+									</ul>
+							</ul>
+						<li>Resnetv1 and Resnetv2</li>
+							<ul>
+                <li>Structure:</li>
+							</ul>
+              <li>Efficientnet_b0</li>
+							<ul>
+								<li>Structure:</li>
+							</ul>
+					</ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> :clipboard: Results</h2>
+
+<p>After training the models several times with different parameters, I ended with the following results: </p>
+
+<p><b> SimpleNet: </b></p>
+<p> 20 Epochs, LR shedule: {0:0.01, 15: 0.001}, Batch Size: 128.</p>
+<p> <img src="Results/TrainingResults/simpleTraining.png" alt="simpleTraining.png"></p>
+<p> Performance: Training loss ending at 3.4. <b>20.2% Testing Accuracy</b>. See (here) for full loss data.
+
+<p><b> ConvNet: </b></p>
+<p> 20 Epochs, LR shedule: {0:0.1, 5:0.01, 15: 0.001}, Batch Size: 128.</p>
+<p> <img src="Results/TrainingResults/convnetTraining.png" alt="convnetTraining.png"></p>
+<p> Performance: Training loss ending at 1.2. 66.4% Testing Accuracy after 20 epochs. <b>67.0% accuracy after 17 epochs</b>. See (here) for full loss data.
+
+<p><b> Resnetv1: </b></p>
+<p> 20 Epochs, LR shedule: {0:0.1, 5:0.01, 15: 0.001}, Batch Size: 128.</p>
+<p> <img src="Results/TrainingResults/resnetv1Training.png" alt="resnetv1Training.png"></p>
+<p> Performance: Training loss ending at 0.1. <b>92.2% Testing Accuracy after 20 epochs</b>. See (here) for full loss data.
+
+<p><b> Resnetv2: </b></p>
+<p> 20 Epochs, LR shedule: {0:0.1, 5:0.01, 15: 0.001}, Batch Size: 128.</p>
+<p> <img src="Results/TrainingResults/resnetv2Training.png" alt="resnetv2Training.png"></p>
+<p> Performance: Training loss ending at 0.015. <b>94.6% Testing Accuracy after 20 epochs</b>. See (here) for full loss data.
+
+<p><b> EffNet: </b></p>
+<p> 20 Epochs, LR shedule: {0:0.1, 5:0.01, 15: 0.001}, Batch Size: 128.</p>
+<p> <img src="Results/TrainingResults/effnetTraining.png" alt="effnetTraining.png"></p>
+<p> Performance: Training loss ending at 0.018. 95.6% Testing Accuracy after 20 epochs. <b>95.8% accuracy after 17 epochs</b>. See (here) for full loss data.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
